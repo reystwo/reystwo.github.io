@@ -1,0 +1,39 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Restu Putra"
+theme = "hugo-theme-dream-master"
+defaultContentLanguage = "en"
+
+[params]
+background = "#ccc"
+backgroundImage = "/img/Magelang-Siang.jpg"
+linkColor = "seagreen"
+backgroundDark = "black"
+backgroundImageDark = "/img/Magelang-Malam.jpg"
+darkLinkColor = "darkseagreen"
+darkNav = true
+dark404 = true
+images = [""]
+author = "Muhamad Restu Putra"
+description = "Destinasi Wisata Di Magelang"
+avatar = "/img/Avatar.jpg"
+headerTitle = "Muhamad Restu Putra"
+motto = "Tetaplah Hidup Walaupun Tak Ada Gunanya"
+categoriesLimitInHeader = 6
+headerBottomText = "Wonderful Magelang"
+email = "akunatomlombrst@gmail.com"
+twitter = "reystwo"
+facebook = "muhamad.r.putra.37819"
+instagram = "reystwo76"
+linkedin = "restu-putra-608280184"
+github = "restuputra7"
+favicon = "/img/Logo-Wisata.png"
+showSummaryCoverInPost = true
+highlightjs = true
+highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+highlightjsExtraLanguages = ["ocaml"]
+highlightjsTheme = "gruvbox-light"
+highlightjsThemeDark = "gruvbox-dark"
+enableSearch = true
+[outputs]
+home = ["HTML", "RSS", "JSON"]
